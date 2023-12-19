@@ -1,0 +1,81 @@
+instruction;code
+In Taipy, Plot Sales according to Date in a line chart;<|{data}|chart|type=lines|x=DATE|y=SALES|>
+In Taipy, Plot Sales according to Date in a line chart titled ""Sales according to Revenue""";<|{data}|chart|type=lines|x=DATE|y=SALES|title=Sales according to Revenue|>
+In Taipy, Plot Sales and Revenue according to Date;<|{data}|chart|type=lines|x=DATE|y[1]=SALES|y[2]=REVENUE|>
+In Taipy, Plot Sales according to Date on a Dashed line;<|{data}|chart|type=lines|x=DATE|y=SALES|line=dash|>
+In Taipy, Plot Revenue by Date on a dotted line;<|{data}|chart|type=lines|x=DATE|y=SALES|line=dot|>
+In Taipy, Plot Sales by Date in Red;<|{data}|chart|type=lines|x=DATE|y=SALES|color=Red|>
+In Taipy, Plot Revenue according to Date in yellow;<|{data}|chart|type=lines|x=DATE|y=SALES|color=Yellow|>
+In Taipy, Plot Revenue according to Date in yellow titled Revenue In Taipy, Plot;<|{data}|chart|type=lines|x=DATE|y=SALES|color=Yellow|title=Revenue In Taipy, Plot>
+In Taipy, Plot Sales in blue and Revenue in green according to Date;<|{data}|chart|type=lines|x=DATE|y[1]=SALES|y[2]=REVENUE|color[1]=blue|color[2]=green|>
+In Taipy, Plot Revenue by Date in a red dashed line and Sales in a yellow Dotted line;<|{data}|chart|type=lines|x=DATE|y[1]=REVENUE|y[2]=SALES|line[1]=dash|line[2]=dot|color[1]=red|color[2]=yellow|>
+In Taipy, Display Date according to Sales;<|{data}|chart|type=lines|x=DATE|y=SALES|>
+In Taipy, Plot in a bar chart the Sales according to Date;<|{data}|chart|type=bar|x=DATE|y=SALES|>
+In Taipy, Plot in a bar chart the Sales according to Date and Revenue according to Date;<|{data}|chart|type=bar|x=DATE|y[1]=SALES|y[2]=REVENUE|>
+In Taipy, Plot Sales and Revenue by Date in a bar chart;<|{data}|chart|type=bar|x=DATE|y[1]=SALES|y[2]=REVENUE|>
+In Taipy, Plot in a bar chart the Sales according to Date and Revenue according to Date titled Finance;<|{data}|chart|type=bar|x=DATE|y[1]=SALES|y[2]=REVENUE|title=Finance|>
+In Taipy, Plot in a scatter In Taipy, Plot Sales according to Date;<|{data}|chart|type=scatter|mode=markers|x=DATE|y=SALES|>
+In Taipy, Draw Sales and Revenue by Date in a scatter In Taipy, Plot;<|{data}|chart|type=scatter|mode=markers|x=DATE|y[1]=SALES|y[2]=REVENUE|>
+In Taipy, Plot Revenue in green points and Sales in yellow points by Date;<|{data}|chart|type=scatter|mode=markers|x=DATE|y[1]=REVENUE|y[2]=SALES|color[1]=green|color[2]=yellow|>
+In Taipy, Plot a histogram of Sales;<|{data}|chart|type=histogram|x=SALES|>
+In Taipy, Display a horizontal histogram of Sales;<|{data}|chart|type=histogram|y=SALES|>
+In Taipy, Plot the distribution of Sales and Revenue;<|{data}|chart|type=histogram|x[1]=SALES|x[2]=REVENUE|>
+In Taipy, Plot the distribution of Sales and Revenue titled ""Sales and Revenue Distribution"";<|{data}|chart|type=histogram|x[1]=SALES|x[2]=Revenue|title=Sales and Revenue Distribution|>
+In Taipy, Display a horizontal distribution of Sales and Revenue titled ""Sales and Revenue Distribution"";<|{data}|chart|type=histogram|y[1]=SALES|y[2]=REVENUE|title=Sales and Revenue Distribution|>
+In Taipy, Plot a pie chart of Sales by Date;<|{data}|chart|type=pie|values=SALES|labels=Date|>
+In Taipy, Draw a pie chart of Sales by Date titled ""Sales Pie Chart"";<|{data}|chart|type=pie|values=SALES|labels=DATE|title=Sales Pie Chart|>
+In Taipy, Plot a pie chart of Revenue by Date;<|{data}|chart|type=pie|values=REVENUE|labels=DATE|>
+In Taipy, Plot a pie chart of Usage by Energy;<|{data}|chart|type=pie|values=USAGE|labels=ENERGY|>
+In Taipy, Plot a pie chart of Usage by Energy titled ""World Energy Distribution"";<|{data}|chart|type=pie|values=Usage|labels=Energy|title=World Energy Distribution|>
+In Taipy, Display value;Value: <|{value}|text|>
+In Taipy, Create a slider;<|{value}|slider|>
+In Taipy, Connect a slider to value;<|{value}|slider|>
+In Taipy, Control value with a slider;<|{value}|slider|>
+In Taipy, display df_AAPL in a chart;<|{df_AAPL}|chart|x=DATE|y=Open|>
+In Taipy, Create a button to upload a file;<|{data_path}|file_selector|on_action=data_upload|>
+In Taipy, File upload;<|{data_path}|file_selector|on_action=data_upload|>
+In Taipy, Create a menu to select the city;<|{city}|selector|lov={cities}|multiple|label=Select the City|dropdown|on_change=on_filter|width=100%|>
+In Taipy, Create a selector for customer types;<|{customer_type}|selector|lov={types}|multiple|label=Select the Customer Type|dropdown|on_change=on_filter|width=100%|>
+In Taipy, Display df_selection in an expandable;<|Sales Table|expandable|expanded=False|>
+In Taipy, Create a Generate text button;<|Generate text|button|on_action=generate_text|label=Generate text|>
+In Taipy, Create a text input for the tweet;<|{tweet}|input|multiline|label=Resulting tweet|class_name=fullwidth|>
+In Taipy, Break line;<br\/>
+In Taipy, Display image;<center><|{image}|image|height=400px|><\/center>
+In Taipy, Display image from path;<|{path}|image|width=500px|height=500px|class_name=img|>
+In Taipy, Create a slider to select iterations;<|{iterations}|slider|min=10|max=50|continuous=False|on_change=generate|>
+In Taipy, Slider dx_start;<|{dx_start}|slider|min=0|max=100|continuous=False|on_change=generate|>
+In Taipy, Create a toggle button;<|{value}|toggle|lov=Item 1;Item 2;Item 3|>
+In Taipy, Create a dropdown to select between A B and C;<|{value}|selector|lov=A;B;C|dropdown|>
+In Taipy, Create a date selector;<|{dt}|date|>
+In Taipy, Date selection;<|{dt}|date|>
+In Taipy, Create a gauge to visualize val;<|message|indicator|value={val}|min=0|max=100|>
+In Taipy, Create a button for file upload;<|{file_path}|file_selector|on_action=upload_file|>
+In Taipy, File uploading feature;<|{upload_path}|file_selector|on_action=file_upload|>
+In Taipy, Select a city from a menu;<|{selected_city}|selector|lov={city_list}|multiple|label=Choose City|dropdown|on_change=city_filter|width=100%|>
+In Taipy, Customer type selection menu;<|{type_customer}|selector|lov={customer_types}|multiple|label=Customer Type Selection|dropdown|on_change=filter_type|width=100%|>
+In Taipy, Show df_filter in a collapsible section;<|Revenue Table|expandable|expanded=False|>
+In Taipy, Button for generating text;<|Create Text|button|on_action=text_creation|label=Create Text|>
+In Taipy, Input area for a message;<|{message}|input|multiline|label=Input Message|class_name=fullwidth|>
+In Taipy, Add a line break;<br/>;
+In Taipy, Show an image;<center><|{image}|image|height=400px|><\/center>
+In Taipy, Render image from file path;<|{path}|image|width=600px|height=400px|class_name=image_display|>
+In Taipy, Slider for choosing number of loops;<|{loops}|slider|min=5|max=100|continuous=False|on_change=loop_change|>
+In Taipy, Adjust dx_end with a slider;<|{dx_end}|slider|min=0|max=200|continuous=False|on_change=adjust_dx|>
+In Taipy, Toggle switch;<|{toggle_val}|toggle|lov=Option 1;Option 2;Option 3|>
+In Taipy, Dropdown for ABC selection;<|{abc_select}|selector|lov=A;B;C|dropdown|>
+In Taipy, Date picker tool;<|{date_pick}|date|>
+In Taipy, Choose a date;<|{select_date}|date|>
+In Taipy, Gauge display for value;<|status|indicator|value={gauge_val}|min=0|max=100|>
+In Taipy, Show current score;<|{score}|text|>
+In Taipy, Create a range slider;<|{range}|slider|>
+In Taipy, Bind value to a range slider;<|{bind_range}|slider|>
+In Taipy, Adjust value using a range slider;<|{range_val}|slider|>
+In Taipy, Chart df_MSFT data;<|{df_MSFT}|chart|x=Date|y=Volume|>
+In Taipy, Button to select a file;<|{select_file}|file_selector|on_action=file_select|>
+In Taipy, Upload file interface;<|{upload_file_path}|file_selector|on_action=upload_action|>
+In Taipy, Dropdown for city selection;<|{city_choice}|selector|lov={all_cities}|multiple|label=City Selector|dropdown|on_change=apply_filter|width=100%|>
+In Taipy, Selector for different customer categories;<|{customer_category}|selector|lov={category_types}|multiple|label=Category Selector|dropdown|on_change=category_filter|width=100%|>
+In Taipy, Present df_filtered in a dropdown;<|Performance Data|expandable|expanded=False|>
+In Taipy, Button to initiate text creation;<|Text Generation|button|on_action=initiate_text|label=Start Writing|>
+In Taipy, Text box for input;<|{input_text}|input|multiline|label=Your Text|class_name=full_width|>
+In Taipy, Insert a line break;<br/>;
