@@ -6,7 +6,7 @@ import transformers
 
 app = Flask(__name__)
 
-model = "taipy14"
+model = "taipy25-ct2"
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
