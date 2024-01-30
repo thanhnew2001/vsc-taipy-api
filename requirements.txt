@@ -1,0 +1,3 @@
+Flask
+pyngrok
+hf-hub-ctranslate2
